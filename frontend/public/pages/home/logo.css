@@ -1,0 +1,18 @@
+.logo{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    text-decoration: none;
+}
+
+.logo img {
+    width: 50px;
+}
+
+.logo span {
+    color: white;
+    font-family: "press Start 2P", sans-serif;
+    font-size: 25px;
+
+    margin-left: 1%;
+}
