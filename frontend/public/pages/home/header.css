@@ -5,9 +5,21 @@ header {
     width: 100%;
     box-sizing: border-box;
     background: black;
-    padding: 2rem 0;
+    padding: 1rem 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
     box-shadow: 0 4px 16px #00FF73;
+}
+
+.headerNav ul{
+    display: flex;
+    gap: 20px;
+    padding-right: 4rem;
+}
+
+.headerNav a{
+    text-decoration: none;
+    color: #00FF73;
+    font-family: "consolas",sans-serif;
 }
