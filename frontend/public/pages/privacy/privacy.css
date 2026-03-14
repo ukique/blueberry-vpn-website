@@ -1,0 +1,49 @@
+body{
+    background-color: black;
+}
+.privacy1 {
+    align-items: center;
+    gap: 5%;
+    margin-top: 150px;
+    margin-left: 50px;
+    display: flex;
+}
+.privacy2{
+    align-items: center;
+    gap: 5%;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+}
+.privacyText1{
+    padding-bottom: 70px;
+}
+.privacyText2{
+    padding-bottom: 70px;
+}
+#privacyMrRobotImg {
+    width: 420px;
+    height: auto;
+}
+
+#privacyImg{
+    width: 420px;
+    height: auto;
+}
+
+#privacyWhyImportant{
+    font-family: sans-serif;
+    color: white;
+    font-size: 2.5rem;
+}
+
+#firstText{
+    color: #00FF73;
+    font-size: 1.5rem;
+}
+
+#secondText{
+    color: #00FF73;
+    font-size: 1.5rem;
+}
