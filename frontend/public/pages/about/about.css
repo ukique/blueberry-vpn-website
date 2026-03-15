@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+}
+
+.aboutUs{
+    margin-top: 150px;
+}
+.center{
+    display: flex;
+    align-items: flex-start;
+    gap: 100px;
+}
+.aboutUsText{
+    color: #00FF73;
+    font-size: 1rem;
+}
+#VPMImg{
+    width: 300px;
+    height: auto;
+    border-radius: 16px;
+    margin-left: 50px;
+}
+#aboutHeaderText{
+    color: palegreen;
+    font-size: 4rem;
+    text-align: center;
+}
