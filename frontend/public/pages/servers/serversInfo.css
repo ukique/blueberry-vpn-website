@@ -1,0 +1,35 @@
+.countriesInfo{
+    margin-top: 75px;
+    margin-left: 75px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.securityInfo{
+    margin-top: 75px;
+    margin-left: 75px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+#countryFlag{
+    width: 100px;
+    height: auto;
+}
+
+#countryText{
+    color: white;
+    font-size: 2rem;
+    font-family: "consolas", sans-serif;
+}
+
+#securityInfoImg{
+    width: 100px;
+    height: auto;
+}
+
+#securityText{
+    color: white;
+    font-size: 2rem;
+    font-family: "consolas", sans-serif;
+}

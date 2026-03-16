@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+}
+.servers{
+    margin-top: 150px;
+
+    display: flex;
+    align-items: flex-start;
+    gap: 5%;
+}
+.serversText h1{
+    font-family: "Source Code Pro", monospace;
+    font-size: 3rem;
+    color: white;
+}
+
+#serverImg{
+    padding-top: 40px;
+    margin-left: 75px;
+    width: 500px;
+    height: auto;
+    border-radius: 75px;
+
+}
+
+#serverText1{
+    color: #00FF73;
+    font-size: 1.5rem;
+}
