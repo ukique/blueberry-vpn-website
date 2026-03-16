@@ -47,3 +47,7 @@ body{
     color: #00FF73;
     font-size: 1.5rem;
 }
+
+#readMoreButton{
+    margin-left: 100px;
+}

@@ -1,27 +1,60 @@
-body{
+body {
     background-color: black;
 }
 
-.aboutUs{
+.aboutUs {
     margin-top: 150px;
 }
-.center{
+
+.center {
     display: flex;
     align-items: flex-start;
     gap: 100px;
 }
-.aboutUsText{
+
+.aboutUsText {
     color: #00FF73;
     font-size: 1rem;
 }
-#VPMImg{
+
+#readMoreButton button {
+    padding: 1em 2em;
+    background-color: black;
+    border: none;
+    color: white;
+    border-radius: 2rem;
+    font-family: "consolas",sans-serif;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 250px;
+    margin-top: 50px;
+}
+
+#VPMImg {
     width: 300px;
     height: auto;
     border-radius: 16px;
     margin-left: 50px;
 }
-#aboutHeaderText{
+
+#aboutHeaderText {
     color: palegreen;
     font-size: 4rem;
+    font-family: "consolas",sans-serif;
     text-align: center;
+}
+
+button::after{
+    content: '';
+    position: absolute;
+    height: 105%;
+    width: 105%;
+    border-radius: 2rem;
+    background-image: linear-gradient(to bottom right,blue,purple);
+    z-index: -1;
+}
+button:hover{
+    z-index: 0;
 }
