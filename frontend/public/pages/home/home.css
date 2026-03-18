@@ -1,0 +1,38 @@
+.homePage{
+    margin-top: 150px;
+    display: flex;
+    align-items: flex-start;
+    gap: 4rem;
+}
+#homePageHeader h1{
+    color: white;
+    font-size: 3rem;
+    font-family: "Source Code Pro", monospace;
+    margin-left: 50px;
+    white-space: nowrap;
+}
+
+#worldMap{
+    width: 700px;
+    height: auto;
+    margin-left: 150px;
+}
+
+.homeButton{
+    margin-left: 50px;
+    width: 200px;
+    height: 75px;
+    background: #29c871;
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 20px;
+
+}
+.white{
+    color: white;
+    margin-left: 50px;
+    font-size: 18px;
+    font-family: consolas, sans-serif;
+}
