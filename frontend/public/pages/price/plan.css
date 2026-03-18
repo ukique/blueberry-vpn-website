@@ -1,0 +1,105 @@
+.cards {
+    display: grid;
+    grid-auto-flow: column;
+    place-content: center;
+    gap: 10rem;
+    align-items: center;
+}
+
+
+.plan {
+    --border-radius: 0.75rem;
+    --spacing-horizontal: 2rem;
+    --bg-color: white;
+    --bg-alternation: rgba(0, 0, 0, 0.05);
+    --fg-color: rgba(0, 0, 0, 0.9);
+    --size: 15rem;
+    display: grid;
+    grid-auto-flow: row;
+    background: var(--bg-color);
+    color: var(--fg-color);
+    width: var(--size);
+    border-radius: var(--border-radius);
+
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.pricingCard{
+    --border-radius: 0.75rem;
+    border-top-left-radius:var(--border-radius) ;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+.pricingCard::after{
+    --hi-primary: rgb(0, 255, 34);
+    --hi-secondary: rgb(75, 186, 134);
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    border-radius: 50%;
+    background: linear-gradient(
+            -45deg,
+            var(--hi-secondary) 25%,
+            var(--hi-primary) 60%
+    );
+    z-index: -1;
+}
+
+.plan h1{
+    padding-left: 4rem;
+}
+
+.planPrice{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+.buy{
+    color: white;
+    background-color: #00FF73;
+    text-decoration: none;
+    text-align: center;
+}
+
+.pricingCardUnlimited{
+    --border-radius: 0.75rem;
+    border-top-left-radius:var(--border-radius) ;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+.pricingCardUnlimited::after{
+    --hi-primary: rgb(255, 0, 213);
+    --hi-secondary: rgb(213, 253, 16);
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    border-radius: 50%;
+    background: linear-gradient(
+            -45deg,
+            var(--hi-secondary) 35%,
+            var(--hi-primary) 60%
+    );
+    z-index: -1;
+}
+
+.buyUnlimited{
+    color: white;
+    background-color: #ff00d5;
+    text-decoration: none;
+    text-align: center;
+}
+
+.plan--unlimited h1 {
+    padding-left: 2rem;
+}

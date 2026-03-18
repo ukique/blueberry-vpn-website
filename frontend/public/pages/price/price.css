@@ -1,0 +1,17 @@
+body{
+    background-color: black;
+}
+.price{
+    margin-top: 150px;
+}
+.priceHeaderText{
+    color: white;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hackerGreen{
+    color: #00FF73;
+    text-decoration: wavy underline;
+}
